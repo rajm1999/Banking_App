@@ -112,7 +112,7 @@ public class RecieverList extends AppCompatActivity {
             new DatabaseHelper(this).UpdateAmount(SelectedUserEmail,FinalAmount.toString());
             Integer RemainingAmount = CurrentBalance -TransferAmount;
             new DatabaseHelper(this).UpdateAmount(Email,RemainingAmount.toString());
-            new DatabaseHelper(this).insertTransferData(Name,SelectedUserName,TransferAmount,"SUCCESSFULL");
+            new DatabaseHelper(this).insertTransferData(Name,SelectedUserName,TransferAmount,"SUCCESSFUL");
             Toast.makeText(this,"Transaction Successful",Toast.LENGTH_LONG).show();
             Intent intent = new Intent(RecieverList.this,SuccessFullSplash.class);
             startActivity(intent);

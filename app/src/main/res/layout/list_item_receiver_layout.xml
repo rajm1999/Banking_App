@@ -76,12 +76,13 @@
             android:id="@+id/receiver_balance"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:typeface="monospace"
             android:padding="1dp"
             android:layout_below="@+id/receiver_email_id"
             android:layout_toRightOf="@+id/rwwwww"
             android:inputType="number"
             android:text="Balance"
-            android:textColor="#02F10C"
+            android:textColor="#048AD3"
              />
     </RelativeLayout>
 

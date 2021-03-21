@@ -6,6 +6,6 @@
     <!--When button is enabled-->
     <item android:state_selected="true" android:color="@android:color/white" />
     <!--Default Text Color-->
-    <item android:color="#636262" />
+    <item android:color="#4A4646" />
 
 </selector>

@@ -9,14 +9,25 @@
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".TransactionSuccessFull">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:textStyle="bold"
+        android:text="TRANSACTION SUCCESSFUL"
+        android:textAlignment="center"
+        android:textColor="#50A0D6"
+        android:typeface="monospace"
+        android:textSize="25dp"
+         />
 
     <com.airbnb.lottie.LottieAnimationView
         android:layout_width="@dimen/_150sdp"
         android:layout_height="@dimen/_150sdp"
+        android:layout_marginTop="@dimen/_10sdp"
         android:id="@+id/imageView"
-        app:lottie_rawRes="@raw/successfuffffl"
-        app:lottie_autoPlay="true"
-        app:lottie_loop="true">
+        app:lottie_rawRes="@raw/successfinal"
+        app:lottie_autoPlay="true">
 
     </com.airbnb.lottie.LottieAnimationView>
     <TextView
@@ -27,7 +38,9 @@
         android:clickable="false"
         android:textStyle="bold"
         android:text="THANK YOU"
+        android:textAlignment="center"
         android:textColor="#D3A4A4"
+        android:typeface="monospace"
         android:textSize="25dp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,10 +52,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="RETURN"
         android:backgroundTint="@color/button_background_color"
-        android:textColor="@color/button_text_color"
+        android:text="RETURN"
         android:textAlignment="center"
+        android:textColor="@color/button_text_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="341dp" />

@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:gravity="center_horizontal"
+    android:gravity="center"
     android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:textStyle="bold"
+        android:text="BANKING APP"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:textAlignment="center"
+        android:textColor="#50A0D6"
+        android:typeface="monospace"
+        android:textSize="25dp"
+        />
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/bank_icon"
-        android:layout_width="@dimen/_150sdp"
+        android:layout_width="@dimen/_180sdp"
         android:layout_height="@dimen/_180sdp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="55dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_5sdp"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
         app:lottie_rawRes="@raw/bankimagefloating">
@@ -26,11 +37,10 @@
         android:id="@+id/button_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/bank_icon"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/_60sdp"
         android:backgroundTint="@color/button_background_color"
-        android:textColor="@color/button_text_color"
-        android:text="START" />
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="START"
+        android:textAlignment="center"
+        android:textColor="@color/button_text_color" />
 
-</RelativeLayout>
+</LinearLayout>

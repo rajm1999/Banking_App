@@ -24,7 +24,6 @@ public class HomeActivity extends AppCompatActivity {
         if (id == R.id.action_history) {
             Intent intent =new Intent(this,TransactionHistory.class);
             startActivity(intent);
-            finish();
             return true;
         }
 
@@ -41,7 +40,6 @@ public class HomeActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(HomeActivity.this,ViewList.class);
                 startActivity(intent);
-                finish();
             }
         });
     }

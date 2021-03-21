@@ -154,7 +154,7 @@ final Context context = this;
                     .setPositiveButton("yes", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {
-                            new DatabaseHelper(Detail.this).insertTransferData(Name, "Not selected", 0, "FAIL");
+                            new DatabaseHelper(Detail.this).insertTransferData(Name, "Not selected", 0, "FAILED");
                             Toast.makeText(Detail.this, "Transaction Cancelled!", Toast.LENGTH_LONG).show();
                         }
                     }).setNegativeButton("No", new DialogInterface.OnClickListener() {

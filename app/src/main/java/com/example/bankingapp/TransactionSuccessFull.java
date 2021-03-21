@@ -24,7 +24,6 @@ public class TransactionSuccessFull extends AppCompatActivity {
         if (id == R.id.action_history) {
             Intent intent =new Intent(this,TransactionHistory.class);
             startActivity(intent);
-            finish();
             return true;
         }
 
@@ -38,7 +37,7 @@ public class TransactionSuccessFull extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(TransactionSuccessFull.this,ViewList.class);
+                Intent intent = new Intent(TransactionSuccessFull.this,HomeActivity.class);
                 startActivity(intent);
                 finish();
             }

@@ -10,10 +10,12 @@
         android:id="@+id/txt_history"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#A68F8F"
         android:padding="1dp"
         android:gravity="center"
+        android:typeface="monospace"
+        android:textColor="#11209F"
         android:text="Recent Transaction"
+        android:layout_marginTop="@dimen/_13sdp"
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold" />

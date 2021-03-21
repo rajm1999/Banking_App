@@ -9,7 +9,7 @@
     card_view:cardUseCompatPadding="true"
     android:background="#7A7C7C"
     android:outlineSpotShadowColor="#7A7C7C"
-    android:outlineAmbientShadowColor="#7A7C7C"
+    android:outlineAmbientShadowColor="#DBDFDF"
     card_view:cardBackgroundColor="#E8E8E8"
     card_view:cardCornerRadius="8dp"
     android:layout_margin="8dp"
@@ -86,12 +86,13 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/email_sender"
             android:padding="1dp"
+            android:typeface="monospace"
             android:layout_gravity="center"
             android:inputType="number"
             android:layout_toRightOf="@+id/bbbb"
             android:layout_weight="1"
             android:text="0000"
-            android:textColor="#09D812"></TextView>
+            android:textColor="#0C7BB6"></TextView>
 
     </RelativeLayout>
 
